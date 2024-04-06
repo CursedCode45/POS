@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 40vh;
+}
+
+
+.login-inp {
+    width: 50%;
+    height: 35px;
+    max-width: 300px;
+    border: 0;
+    text-indent: 10px;
+}
+
+
+.buttons-container {
+    display: flex;
+    justify-content:space-evenly;
+    gap: 5px;
+    width: 50%;
+    height: 35px;
+    max-width: 300px;
+}
+
+
+#login-btn {
+    width: 50%;
+    border-radius: 0;
+}
+
+#register-btn {
+    width: 50%;
+}
